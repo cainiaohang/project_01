@@ -1,0 +1,179 @@
+/* 头部开始 */
+.container {
+    width: 100%;
+    height: 33px;
+    background-color: #222933;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.head-brand {
+    float: left;
+    color: #6c737d;
+}
+.head-fr {
+    float: right;
+    color: #6c737d;
+}
+
+/* 头部结束 */
+/* 加上清楚浮动 */
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* .header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    font-size: 12px;
+
+}
+
+.wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header li {
+    position: relative;
+    float: left;
+}
+
+.header a {
+    color: #b0b0b0;
+}
+
+.header a:hover {
+    color: #fff;
+}
+
+.header span {
+    color: #424242;
+    margin: 0 6px;
+}
+
+.cart {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 25px;
+}
+
+.cart i {
+    margin-right: 4px;
+}
+
+/* li和a都变橘   鼠标碰li后a颜色变橘*/
+/* .cart:hover>a {
+    color: #ff5e00;
+} */
+
+/* .cart:hover a{
+    color: #ff5e00;
+} 和上面亲儿子选择器一样的*/
+/* 链接a才会变橘，li不会   */
+/* .cart>a:hover{
+    color: #ff5e00;
+} */
+/* .cart:hover {
+    background-color: #fff;
+}
+
+.cart-list {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 316px;
+    height: 0;
+    overflow: hidden;
+    line-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    transition: all .3s;
+}
+
+.cart:hover>.cart-list {
+    height: 100px;
+}
+
+.download {
+    position: absolute;
+    top: 40px;
+    /* 水平居中 */
+/* left: 50%;
+    margin-left: -65px;
+    width: 130px;
+    height: 140px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+
+}
+
+
+/* header end */
+/* nav star */
+/* .nav {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+
+}
+
+.logo {
+    margin-top: 22px;
+    float: left;
+    width: 56px;
+    height: 56px;
+
+} */
+/* 
+.nav-bar {
+    float: left;
+    width: 874px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 174px;
+    box-sizing: border-box;
+
+}
+
+.search {
+    float: left;
+    width: 296px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-bar>ul>li {
+    float: left;
+    padding: 0 10px;
+} */
+
+/* nav end */
+/* .arrow-l,
+.arrow-r {
+    display: none;
+    background-color: red;
+    color: blue;
+}  */
